@@ -1,0 +1,34 @@
+# Site settings
+title: "Blindfold Chess: The Book"
+description: "Eliot Hearst and John Knott's Blindfold Chess: History, Psychology, Techniques, Champions, World Records, and Important Games is the definitive work on this fascinating topic."
+url: "https://www.blindfoldchess.net"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+permalink: /blog/:year/:month/:title
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /blog/:year/:month/:title
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
