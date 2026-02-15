@@ -1,31 +1,35 @@
-# Images Folder
+# Blog Images Folder
 
-This folder should contain the images from your Squarespace site.
+Place downloaded images from Squarespace here.
 
-## Required Images:
+## Required Images
 
-1. **alekhine.jpg** - Alexander Alekhine playing blindfold against 28 opponents in Paris (used on homepage)
-2. **philidor_exhibition.jpg** - François-André Philidor playing blindfolded at Parsloe's Chess Club (used on excerpt page)
-3. **alekhine-blindfold.jpg** - Alexander Alekhine playing blindfold in 1925 (used on excerpt page)
+See `IMAGE_DOWNLOAD_GUIDE.md` in the parent folder for complete download instructions.
 
-## How to Add Images:
+### Priority Images (download these first):
 
-You can download these images from your current Squarespace site:
+1. **eliot-hearst-bobby-fischer-1962.jpg** - For obituary post
+2. **eliot-hearst-psychologist.jpg** - For obituary post  
+3. **alekhine.jpg** - Homepage hero image
+4. **philidor_exhibition.jpg** - Excerpt page
+5. **alekhine-blindfold.jpg** - Excerpt page
 
-1. Visit https://www.blindfoldchess.net/
-2. Right-click on the images
-3. Save them to your computer
-4. Place them in this `assets/images/` folder
-5. Keep the same filenames as referenced in the pages
+### Additional Images (optional):
 
-Alternatively, you can use the Squarespace URLs directly by replacing `/assets/images/filename.jpg` with the full Squarespace CDN URLs in the markdown files.
+- najdorf-portrait.jpg
+- topalov-polgar-blindfold.jpg
+- Various game diagrams from Marc Lang posts
+- Photos from tandem display
 
-## Image URLs from Squarespace:
+## How to Add Images
 
-If you want to reference the Squarespace images directly (temporary solution):
+1. Download images from blindfoldchess.net (see IMAGE_DOWNLOAD_GUIDE.md)
+2. Save them in this folder with the exact filenames listed
+3. Upload to GitHub (either via GitHub Desktop or website)
 
-- Alekhine: https://images.squarespace-cdn.com/content/v1/5f344174dccc2722aface841/1597274290093-PHWI1U6BAWH1COX6L0OA/alekhine.jpg
-- Philidor: https://images.squarespace-cdn.com/content/v1/5f344174dccc2722aface841/1597273654124-N4Z2A0PNFQDB5CUVJC43/philidor_exhibition.jpg
-- Alekhine Blindfold: https://images.squarespace-cdn.com/content/v1/5f344174dccc2722aface841/1597273955778-D6YHSV0O9YVKRO00CIQ1/alekhine.jpg
+The blog posts are already configured to look for images in this location using paths like:
+```
+/assets/images/filename.jpg
+```
 
-Note: It's better to host images yourself rather than relying on external URLs.
+Once images are in place, they'll display automatically!
