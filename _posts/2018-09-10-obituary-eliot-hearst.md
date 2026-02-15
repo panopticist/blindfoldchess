@@ -6,7 +6,7 @@ author: Admin
 excerpt: "Eliot S. Hearst, the co-author of Blindfold Chess, passed away in Tucson, Arizona, in January 2018. This post contains two obituaries that focus on the twin passions of his life: chess and psychology..."
 ---
 
-![Eliot Hearst playing Bobby Fischer in 1962]({{ site.baseurl }}/assets/images/eliot-hearst-bobby-fischer-1962.jpg)
+![Eliot Hearst playing Bobby Fischer in 1962](../assets/images/eliot-hearst-bobby-fischer-1962.jpg)
 *Eliot Hearst, right, playing an informal game with Bobby Fischer in August 1962.*
 
 *Eliot S. Hearst, the co-author of Blindfold Chess, passed away in Tucson, Arizona, in January 2018. This post contains two obituaries that focus on the twin passions of his life: chess and psychology. The first obituary, by Al Lawrence, appeared in the May 2018 issue of Chess Life. The second, by Hearst's onetime Indiana University colleague James H. Capshew, focuses on Hearst's academic psychology career.*
@@ -16,7 +16,7 @@ excerpt: "Eliot S. Hearst, the co-author of Blindfold Chess, passed away in Tucs
 ***By Al Lawrence***  
 *This article appeared in the May 2018 Chess Life and is posted here with permission of US Chess.*
 
-The generationsss of top American players active in the 1950s and early 1960s are a fascinating mix of personalities and I am nostalgic for them. You read *Chess Life*, so you know many of the names—from Fine, Reshevsky, and Denker to Evans and Bisguier and of course, Fischer. But you may have missed one of my personal favorites, a 20th-century Renaissance man of culture and wit named Eliot Hearst, whose long and illustrious life ended January 30, 2018, in Tucson, Arizona.
+The generationses of top American players active in the 1950s and early 1960s are a fascinating mix of personalities and I am nostalgic for them. You read *Chess Life*, so you know many of the names—from Fine, Reshevsky, and Denker to Evans and Bisguier and of course, Fischer. But you may have missed one of my personal favorites, a 20th-century Renaissance man of culture and wit named Eliot Hearst, whose long and illustrious life ended January 30, 2018, in Tucson, Arizona.
 
 Born in New York City in 1932, Hearst was actually the first notable chess player I ever met, and the one who opened up the real chess world for me. In the late 1960s, he found himself toward the start of his academic career at the University of Missouri-Columbia. To promote the chess club, he gave free simultaneous exhibitions.
 
