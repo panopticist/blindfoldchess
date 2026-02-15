@@ -5,7 +5,7 @@ date: 2018-09-10
 author: Admin
 excerpt: "Eliot S. Hearst, the co-author of Blindfold Chess, passed away in Tucson, Arizona, in January 2018. This post contains two obituaries that focus on the twin passions of his life: chess and psychology..."
 ---
-![Eliot Hearst playing Bobby Fischer in 1962](../assets/images/eliot-hearst-bobby-fischer-1962.jpg)
+![Eliot Hearst playing Bobby Fischer in 1962](../assets/images/eliot-hearst-and-bobby-fischer-1962.jpg)
 *Eliot Hearst, right, playing an informal game with Bobby Fischer in August 1962.*
 
 *Eliot S. Hearst, the co-author of Blindfold Chess, passed away in Tucson, Arizona, in January 2018. This post contains two obituaries that focus on the twin passions of his life: chess and psychology. The first obituary, by Al Lawrence, appeared in the May 2018 issue of Chess Life. The second, by Hearst's onetime Indiana University colleague James H. Capshew, focuses on Hearst's academic psychology career.*
