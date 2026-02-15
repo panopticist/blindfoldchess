@@ -16,7 +16,7 @@ excerpt: "Eliot S. Hearst, the co-author of Blindfold Chess, passed away in Tucs
 ***By Al Lawrence***  
 *This article appeared in the May 2018 Chess Life and is posted here with permission of US Chess.*
 
-The generations of top American players active in the 1950s and early 1960s are a fascinating mix of personalities and I am nostalgic for them. You read *Chess Life*, so you know many of the names—from Fine, Reshevsky, and Denker to Evans and Bisguier and of course, Fischer. But you may have missed one of my personal favorites, a 20th-century Renaissance man of culture and wit named Eliot Hearst, whose long and illustrious life ended January 30, 2018, in Tucson, Arizona.
+The generationss of top American players active in the 1950s and early 1960s are a fascinating mix of personalities and I am nostalgic for them. You read *Chess Life*, so you know many of the names—from Fine, Reshevsky, and Denker to Evans and Bisguier and of course, Fischer. But you may have missed one of my personal favorites, a 20th-century Renaissance man of culture and wit named Eliot Hearst, whose long and illustrious life ended January 30, 2018, in Tucson, Arizona.
 
 Born in New York City in 1932, Hearst was actually the first notable chess player I ever met, and the one who opened up the real chess world for me. In the late 1960s, he found himself toward the start of his academic career at the University of Missouri-Columbia. To promote the chess club, he gave free simultaneous exhibitions.
 
