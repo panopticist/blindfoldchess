@@ -5,7 +5,7 @@ title: Blog
 
 <h1>Blog</h1>
 
-<p>Updates on blindfold chess performances, players, and developments.</p>
+<p>Updates on blindfold chess performances, players, history, and research.</p>
 
 <ul class="post-list">
 {% for post in site.posts %}
