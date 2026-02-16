@@ -31,19 +31,19 @@ Gareyev argued that by playing 7 games they could claim the world record for num
 
 I have not described the games or the arrangement of the playing room in detail because I believe the following six photos and seven game scores will give the reader all that is needed to fill in those kinds of gaps in my presentation and still keep the text of this blog post within reasonable space limits.
 
-![Preparing in the kitchen]({{ '/assets/images/kitchen-prep-tg-and-ml.jpg' | relative_url }})
+![Preparing in the kitchen]({{ '/assets/images/Kitchen-Prep-TG-and-mML.jpg' | relative_url }})
 
 Preparing in the kitchen (Gareyev on the left, Lang on the right).
 
-![All 7 opponents]({{ '/assets/images/all-7-opponents.jpg' | relative_url }})
+![All 7 opponents]({{ '/assets/images/All-7-Opponents.jpg' | relative_url }})
 
 *All 7 opponents as play begins.*
 
-![The setup near the exhibitors]({{ '/assets/images/some-players-and-tg-and-ml.jpg' | relative_url }})
+![The setup near the exhibitors]({{ '/assets/images/Some-Players-and-TG-and-ML.jpg' | relative_url }})
 
 ﻿The setup near the exhibitors. Display boards behind and above them electronically record current positions in all games.
 
-![Hard at work]({{ '/assets/images/tandem-exhibitors-tg-and-ml.jpg' | relative_url }})
+![Hard at work]({{ '/assets/images/Tandem-Exhibitors-TG-and-ML.jpg' | relative_url }})
 
 Hard at work.
 
@@ -51,7 +51,7 @@ Hard at work.
 
 Near the end of the display.
 
-![Group photo afterwards]({{ '/assets/images/group-tandem-with-tg-and-ml.jpg' | relative_url }})
+![Group photo afterwards]({{ '/assets/images/Group-Tandem-with-TG-and-ML.jpg' | relative_url }})
 
 Afterwards: Gareyev and Lang (front center); 5 opponents in the back row; left front: Marck Cobb, President of the Karpov International School of Chess; right front: Ronald Mayer, Chairman of the Sontheim Chess Club.
 
