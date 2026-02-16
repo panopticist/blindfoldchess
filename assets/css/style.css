@@ -95,6 +95,7 @@ a:hover {
 }
 
 img {
+  float: left;
   max-width: 100%;
   height: auto;
   margin: 20px 0;
