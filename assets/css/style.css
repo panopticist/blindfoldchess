@@ -1,0 +1,225 @@
+/* ---------------------------------------------------------------
+   Blindfold Chess: The Book — site stylesheet
+   A quiet, book-like design: paper background, ink text,
+   a chess-club green accent, and a checkerboard rule as the
+   one signature detail.
+   --------------------------------------------------------------- */
+
+:root {
+  --paper: #faf9f5;
+  --ink: #23201a;
+  --ink-soft: #5c564b;
+  --green: #2f5d46;       /* chess-club baize green: links, accents */
+  --green-dark: #234634;
+  --square-dark: #2f5d46;
+  --square-light: #e9e4d8;
+  --rule: #d9d3c4;
+  --max-width: 44rem;
+}
+
+* { box-sizing: border-box; }
+
+html { font-size: 106.25%; } /* 17px base for comfortable long-form reading */
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: Charter, "Bitstream Charter", "Iowan Old Style", Georgia, "Times New Roman", serif;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+.wrap {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+/* --- Signature detail: a single row of chessboard squares --- */
+.board-rule {
+  height: 8px;
+  background-image: linear-gradient(90deg, var(--square-dark) 50%, var(--square-light) 50%);
+  background-size: 16px 8px;
+}
+
+/* --- Header --- */
+.site-header { padding-top: 1.75rem; }
+.site-header .wrap { padding-bottom: 1.1rem; }
+
+.site-title {
+  display: inline-block;
+  font-size: 1.65rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  color: var(--ink);
+  text-decoration: none;
+  line-height: 1.2;
+}
+.site-title-sub {
+  display: block;
+  font-size: 0.8rem;
+  font-weight: 400;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--green);
+  margin-top: 0.15rem;
+}
+
+.site-nav {
+  margin-top: 0.9rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.82rem;
+  letter-spacing: 0.04em;
+}
+.site-nav a {
+  color: var(--ink-soft);
+  text-decoration: none;
+  margin-right: 1.1rem;
+  padding-bottom: 2px;
+  border-bottom: 2px solid transparent;
+}
+.site-nav a:hover,
+.site-nav a:focus-visible { color: var(--green-dark); border-bottom-color: var(--green); }
+.site-nav a.nav-buy {
+  color: #fff;
+  background: var(--green);
+  padding: 0.35rem 0.7rem;
+  border-radius: 3px;
+  border-bottom: none;
+}
+.site-nav a.nav-buy:hover,
+.site-nav a.nav-buy:focus-visible { background: var(--green-dark); }
+
+/* --- Content --- */
+.content { padding: 2.25rem 1.25rem 3rem; }
+
+h1, h2, h3 { line-height: 1.25; letter-spacing: 0.005em; }
+.page-title { font-size: 1.9rem; margin: 0 0 0.4rem; }
+h2 { font-size: 1.35rem; margin-top: 2.2rem; }
+h3 { font-size: 1.1rem; }
+
+a { color: var(--green); }
+a:hover { color: var(--green-dark); }
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1.6rem auto 0.5rem;
+}
+
+/* Image captions: an emphasized paragraph right after an image */
+img + em, .caption {
+  display: block;
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+  text-align: center;
+  margin: 0.4rem auto 1.6rem;
+  max-width: 36rem;
+}
+
+blockquote {
+  margin: 1.4rem 0;
+  padding: 0.2rem 0 0.2rem 1.2rem;
+  border-left: 3px solid var(--green);
+  color: var(--ink-soft);
+  font-style: italic;
+}
+blockquote em { font-style: normal; }
+
+hr {
+  border: none;
+  border-top: 1px solid var(--rule);
+  margin: 2.5rem auto;
+}
+
+/* --- Buttons (Buy the Book, Read the Introduction) --- */
+.button {
+  display: inline-block;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.85rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #fff;
+  background: var(--green);
+  text-decoration: none;
+  padding: 0.6rem 1.1rem;
+  border-radius: 3px;
+  margin: 0.4rem 0.6rem 0.4rem 0;
+}
+.button:hover, .button:focus-visible { background: var(--green-dark); color: #fff; }
+
+/* --- Blog index --- */
+.post-list { list-style: none; padding: 0; margin: 1.5rem 0 0; }
+.post-list li {
+  padding: 1.15rem 0;
+  border-bottom: 1px solid var(--rule);
+}
+.post-list .post-link {
+  font-size: 1.15rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--ink);
+}
+.post-list .post-link:hover { color: var(--green-dark); text-decoration: underline; }
+.post-list .post-meta { margin: 0.25rem 0 0; }
+
+.post-meta {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.78rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  margin: 0 0 1.6rem;
+}
+
+.post-back { margin-top: 2.5rem; }
+
+/* --- Contact form --- */
+.contact-form { margin-top: 1.5rem; max-width: 34rem; }
+.contact-form label {
+  display: block;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  margin: 1rem 0 0.3rem;
+}
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  font: inherit;
+  padding: 0.5rem 0.6rem;
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  background: #fff;
+  color: var(--ink);
+}
+.contact-form input:focus,
+.contact-form textarea:focus { outline: 2px solid var(--green); outline-offset: 1px; }
+.contact-form button { margin-top: 1.2rem; border: none; cursor: pointer; }
+
+/* --- Footer --- */
+.site-footer { margin-top: 2rem; }
+.site-footer .wrap { padding: 1.6rem 1.25rem 2.2rem; }
+.footer-title { font-weight: 700; margin: 0 0 0.3rem; }
+.footer-nav, .footer-copy {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.78rem;
+  color: var(--ink-soft);
+  margin: 0.2rem 0;
+}
+.footer-nav a { color: var(--ink-soft); text-decoration: none; }
+.footer-nav a:hover { color: var(--green-dark); text-decoration: underline; }
+
+/* --- Small screens --- */
+@media (max-width: 540px) {
+  html { font-size: 100%; }
+  .site-nav a { margin-right: 0.7rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation: none !important; }
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title and page.url != "/" %}{{ page.title }} — {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  {% if page.description %}<meta name="description" content="{{ page.description }}">{% elsif page.url == "/" %}<meta name="description" content="{{ site.description }}">{% endif %}
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>♞</text></svg>">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="site-title" href="{{ '/' | relative_url }}">Blindfold Chess<span class="site-title-sub">The Book</span></a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="{{ '/excerpt/' | relative_url }}">Excerpt</a>
+        <a href="{{ '/blog/' | relative_url }}">Blog</a>
+        <a href="{{ '/reviews-and-press/' | relative_url }}">Reviews &amp; Press</a>
+        <a href="{{ '/about-the-authors/' | relative_url }}">About the Authors</a>
+        <a class="nav-buy" href="{{ '/buy-the-book/' | relative_url }}">Buy the Book</a>
+      </nav>
+    </div>
+    <div class="board-rule" aria-hidden="true"></div>
+  </header>
+
+  <main class="wrap content">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="board-rule" aria-hidden="true"></div>
+    <div class="wrap">
+      <p class="footer-title">♞ Blindfold Chess: The Book</p>
+      <p class="footer-nav">
+        <a href="{{ '/' | relative_url }}">Home</a> ·
+        <a href="{{ '/excerpt/' | relative_url }}">Excerpt</a> ·
+        <a href="{{ '/blog/' | relative_url }}">Blog</a> ·
+        <a href="{{ '/reviews-and-press/' | relative_url }}">Reviews &amp; Press</a> ·
+        <a href="{{ '/about-the-authors/' | relative_url }}">About the Authors</a> ·
+        <a href="{{ '/buy-the-book/' | relative_url }}">Buy the Book</a>
+      </p>
+      <p class="footer-copy">Site text and images © Eliot Hearst and John Knott.</p>
+    </div>
+  </footer>
+</body>
+</html>
