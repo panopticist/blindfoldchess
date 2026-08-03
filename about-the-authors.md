@@ -7,11 +7,11 @@ permalink: /about-the-authors/
 
 <!-- CONTACT FORM — replace YOUR_FORM_ID with your real Formspree form ID -->
 <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-  <label for="cf-name">Name</label>
-  <input id="cf-name" type="text" name="name" required>
-  <label for="cf-email">Email address</label>
-  <input id="cf-email" type="email" name="email" required>
-  <label for="cf-message">Message</label>
-  <textarea id="cf-message" name="message" rows="6" required></textarea>
-  <button class="button" type="submit">Send message</button>
+<label for="cf-name">Name</label>
+<input id="cf-name" type="text" name="name" required>
+<label for="cf-email">Email address</label>
+<input id="cf-email" type="email" name="email" required>
+<label for="cf-message">Message</label>
+<textarea id="cf-message" name="message" rows="6" required></textarea>
+<button class="button" type="submit">Send message</button>
 </form>

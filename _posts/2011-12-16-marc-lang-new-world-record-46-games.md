@@ -8,28 +8,28 @@ author: "EliotHearst"
 
 
   
-      <img src="{{ '/assets/images/lang-gritsch.jpg' | relative_url }}" alt=""/>
+<img src="{{ '/assets/images/lang-gritsch.jpg' | relative_url }}" alt=""/>
   
 
 <div class="sqs-html-content" data-sqsp-text-block-content><p class="" style="white-space:pre-wrap;">______________________________</p><p class="" style="white-space:pre-wrap;"><strong>A. Missione - M. Lang</strong><br><em>Blindfold Simul, Sontheim, Germany, November 26-27, 2011<br>Board 20 (of 46)<br>A00</em></p><p class="" style="white-space:pre-wrap;"><strong>1.g4 e5 2.Bg2 d5 3.c4 c6 4.cxd5 cxd5 5.Qb3 Ne7 6.Nc3 Nbc6 7.Nxd5 Nd4 8.Qc4 Nxd5 9.Bxd5 Be6 10.Bxe6 fxe6 11.Kf1 Rc8 12.Qa4+ b5 13.Qxa7 Qd5 14.f3 Qc6 15.Qa5 Nc2 16.Rb1 Bb4 17.Qa7 0–0 18.Qf2 Qd5 19.b3 Bxd2 20.Bxd2 Qxd2 21.Kg2 Ne3+ 22.Kg3</strong></p></div>
 
 
   
-      <img src="{{ '/assets/images/lang-missione.jpg' | relative_url }}" alt=""/>
+<img src="{{ '/assets/images/lang-missione.jpg' | relative_url }}" alt=""/>
   
 
 <div class="sqs-html-content" data-sqsp-text-block-content><p class="" style="white-space:pre-wrap;"><strong>22…Nxg4 23.Qb6 Qf4+ 24.Kg2 Qf5 25.Nh3 Rc2 26.Rhf1 Rxe2+ 27.Kg3 Ne3 28.f4 Qg4#. 0–1</strong></p><p class="" style="white-space:pre-wrap;">______________________________</p><p class="" style="white-space:pre-wrap;"><strong>M. Lang - F. Jarkov</strong><br><em>Blindfold Simul, Sontheim, Germany, November 26-27, 2011<br>Board 38 (of 46)<br>B09</em></p><p class="" style="white-space:pre-wrap;"><strong>1.e4 d6 2.d4 g6 3.Nc3 Bg7 4.f4 Nf6 5.Nf3 0–0 6.e5 dxe5 7.fxe5 Nd5 8.Bc4 c6 9.0–0 e6 10.Ne4 Ne7 11.Bg5 h6 12.Nf6+ Bxf6 13.Bxf6 Nd7 14.Bh4 Qe8 15.Qd2 Kh7 16.Rae1 Nf5 17.Bf2 Rh8 18.Nh4 Nxh4 19.Bxh4 Nb6 20.Bd3 Nd5 21.Re4 Ne7</strong></p></div>
 
 
   
-      <img src="{{ '/assets/images/lang-jarkov.jpg' | relative_url }}" alt=""/>
+<img src="{{ '/assets/images/lang-jarkov.jpg' | relative_url }}" alt=""/>
   
 
 <div class="sqs-html-content" data-sqsp-text-block-content><p class="" style="white-space:pre-wrap;"><strong>22.Bf6 Rg8 23.Qxh6+ Kxh6 24.Rh4#. 1–0</strong></p><p class="" style="white-space:pre-wrap;">______________________________</p><p class="" style="white-space:pre-wrap;"><strong>M. Lang - B. Aldag</strong><br><em>Blindfold Simul, Sontheim, Germany, November 26-27, 2011<br>Board 43 (of 46)&nbsp;<br>B06</em></p><p class="" style="white-space:pre-wrap;"><strong>1.e4 g6 2.d4 Bg7 3.Nf3 d6 4.Bc4 e6 5.Bb3 Ne7 6.Nc3 0–0 7.h4 e5 8.dxe5 dxe5 9.Bg5 Qxd1+ 10.Rxd1 Nec6 11.h5 gxh5 12.Nd5 Na6 13.Ba4 Bg4 14.Bxc6 bxc6 15.Ne7+ Kh8 16.Nxc6 Nb8 17.Ncxe5 f6</strong></p></div>
 
 
   
-      <img src="{{ '/assets/images/lang-aldag.jpg' | relative_url }}" alt=""/>
+<img src="{{ '/assets/images/lang-aldag.jpg' | relative_url }}" alt=""/>
   
 
 <div class="sqs-html-content" data-sqsp-text-block-content><p class="" style="white-space:pre-wrap;"><strong>18.Nxg4 hxg4 19.Nh4 fxg5 20.Ng6+ Kg8 21.Nxf8 Bxf8 22.Rd8 Kg7 23.Ke2 Be7 24.Rc8 Bd6 25.c4 Kf6 26.Rxh7 c5 27.b4 cxb4 28.c5 Be5 29.c6 Nxc6 30.Rxa8 Nd4+ 31.Kd3 Kg6 32.Rd7 Nc6 33.Rc8 Na5 34.Rd5 b3 35.Rxa5. 1–0</strong></p></div>

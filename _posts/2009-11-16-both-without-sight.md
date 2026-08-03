@@ -8,7 +8,7 @@ author: "EliotHearst"
 
 
   
-      <img src="{{ '/assets/images/alekhine-samisch.jpg' | relative_url }}" alt=""/>
+<img src="{{ '/assets/images/alekhine-samisch.jpg' | relative_url }}" alt=""/>
   
 
 <div class="sqs-html-content" data-sqsp-text-block-content><p class="" style="white-space:pre-wrap;"><strong>18.fxe6!! Bxg3 19.exf7+ Kh8 20.Nd5! 1–0</strong></p></div>

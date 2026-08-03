@@ -8,4 +8,4 @@ author: "EliotHearst"
 
 
   
-      <img src="{{ '/assets/images/degroot.jpg' | relative_url }}" alt=""/>
+<img src="{{ '/assets/images/degroot.jpg' | relative_url }}" alt=""/>
