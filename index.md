@@ -4,7 +4,7 @@ title: "Blindfold Chess: The Book"
 permalink: /
 ---
 
-![Alexander Alekhine playing blindfold against 28 opponents in Paris in 1925](/assets/images/alekhine-home.jpg)
+![Alexander Alekhine playing blindfold against 28 opponents in Paris in 1925]({{ '/assets/images/alekhine-home.jpg' | relative_url }})
 
 ## Eliot Hearst and John Knott's *Blindfold Chess: History, Psychology, Techniques, Champions, World Records, and Important Games* is the definitive work on this fascinating topic.
 
@@ -29,6 +29,6 @@ Hints for playing blindfold chess, the benefits of playing blindfold, and a read
 This book will be of special interest to psychologists, historians, computer scientists, people interested in great feats of memory, and, of course, chess players—as well as anyone fascinated by the power and capacity of the human mind.
 
 <p>
-<a class="button" href="/excerpt/">Read the Introduction</a>
-<a class="button" href="/buy-the-book/">Buy the Book</a>
+<a class="button" href="{{ '/excerpt/' | relative_url }}">Read the Introduction</a>
+<a class="button" href="{{ '/buy-the-book/' | relative_url }}">Buy the Book</a>
 </p>

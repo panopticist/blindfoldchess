@@ -9,18 +9,18 @@ author: "EliotHearst"
 
 
   
-      <img src="/assets/images/lang1.jpg" alt=""/>
+      <img src="{{ '/assets/images/lang1.jpg' | relative_url }}" alt=""/>
   
 
 <div class="sqs-html-content" data-sqsp-text-block-content><p class="" style="white-space:pre-wrap;"><strong>M. Lang - F. Jarchov</strong><br>Blindfold Simul, Sontheim, Germany, November 27-28, 2010&nbsp;<br>Board 18 (of 35)<br>Caro-Kann Defense B12</p><p class="" style="white-space:pre-wrap;"><strong>1.e4 c6 2.d4 d5 3.e5 Bf5 4.Nf3 e6 5.Be2 Bb4+ 6.c3 Ba5 7.0–0 Ne7 8.Nh4 Bg6 9.Nd2 Nf5 10.Nxg6 hxg6 11.Nf3 Nd7 12.Bg5 f6 13.exf6 gxf6 14.Bf4 g5 15.Bg3 Nf8 16.Bd3 Nxg3 17.fxg3 g4 18.Nh4 f5 19.Qe2 Rxh4 20.gxh4 Kd7 21.g3 Qf6 22.Qxg4 Qh6 23.Qe2 Nh7 24.Rae1 Qf6 25.b4 Bc7 26.Qh5 Rh8</strong>&nbsp;(Diagram)&nbsp;<strong>27.Bxf5 exf5 28.Rxf5 Qd8 29.Rf7+ 1–0</strong></p></div>
 
 
   
-      <img src="/assets/images/lang2.jpg" alt=""/>
+      <img src="{{ '/assets/images/lang2.jpg' | relative_url }}" alt=""/>
   
 
 <div class="sqs-html-content" data-sqsp-text-block-content><p class="" style="white-space:pre-wrap;"><strong>Fritz 11 Computer – M. Lang [D78]</strong><br>Blindfold Simul, Sontheim, Germany, November 27-28, 2010<br>Board 35 (of 35)<br>Grünfeld Defense (Irregular) D78</p><p class="" style="white-space:pre-wrap;"><strong>1.c4 g6 2.d4 Bg7 3.g3 Nf6 4.Bg2 0–0 5.Nf3 d5 6.0–0 c6 7.Nbd2 Bf5 8.Qb3 Qb6 9.Qe3 Nbd7 10.c5 Qc7 11.b4 Rfe8 12.Bb2 e5 13.Qg5 h6 14.Qe3 exd4 15.Qb3 Rxe2 16.Bxd4 Rae8 17.Qc3 Nh5 18.Bxg7 Nxg7 19.Nd4 R2e7 20.Bf3 Ne5 21.Rfe1 Nxf3+ 22.N2xf3 Rxe1+ 23.Rxe1 Rxe1+ 24.Qxe1 Kf8 25.Qe3 g5 26.h4 f6 27.Nxf5 Nxf5 28.Qe6 g4 29.Qxf5 gxf3 30.Qxf6+ Qf7 31.Qxh6+ Ke8 32.g4 Qe7 33.Kh2 Qe2 34.Qg6+ Kd8 35.Qg8+ Kd7 36.Qg7+ Kc8 37.Qf8+ Kd7 38.Qf7+ Kc8 39.Kg3 1-0</strong>&nbsp;(Diagram of final position; with all those White passed pawns on the kingside, Black’s position is hopeless, especially against a computer.)</p></div>
 
 
   
-      <img src="/assets/images/lang3.jpg" alt=""/>
+      <img src="{{ '/assets/images/lang3.jpg' | relative_url }}" alt=""/>
