@@ -63,7 +63,7 @@ body {
 .site-header-row {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   flex-wrap: wrap;
   padding-bottom: 1.1rem;
   max-width: calc(var(--max-width) * 2);
@@ -79,15 +79,6 @@ body {
   color: var(--red);
   text-decoration: none;
   line-height: 1.2;
-}
-.site-title-sub {
-  display: block;
-  font-size: 0.8rem;
-  font-weight: 400;
-  letter-spacing: 0.28em;
-  text-transform: uppercase;
-  color: var(--green);
-  margin-top: 0.15rem;
 }
 
 /* Hamburger toggle: hidden entirely on desktop (default). See media query
@@ -115,7 +106,6 @@ body {
   order: 3;
   flex-basis: 100%;
   margin-top: 0.9rem;
-  text-align: center;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
   font-size: 1.07rem;      /* ~30% larger than the original 0.82rem */
   font-weight: 700;
@@ -146,7 +136,11 @@ body {
 /* --- Content --- */
 .content { padding: 2.25rem 1.25rem 3rem; }
 
-h1, h2, h3 { line-height: 1.25; letter-spacing: 0.005em; }
+h1, h2, h3, h4 { line-height: 1.25; letter-spacing: 0.005em; }
+h3, h4 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  color: var(--ink);
+}
 h1, h2, .page-title { color: var(--red); }
 .page-title {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
@@ -154,7 +148,8 @@ h1, h2, .page-title { color: var(--red); }
   margin: 0 0 0.4rem;
 }
 h2 { font-size: 1.35rem; margin-top: 2.2rem; }
-h3 { font-size: 1.1rem; }
+h3 { font-size: 1.25rem; }
+h4 { font-size: 1.15rem; }
 
 a { color: var(--red); }
 a:hover { color: var(--red-dark); }
@@ -294,7 +289,6 @@ hr {
     flex-direction: column;
     gap: 0;
     margin-top: 0;
-    text-align: left;
     position: absolute;
     left: 0;
     right: 0;
