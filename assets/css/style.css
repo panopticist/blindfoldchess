@@ -1,16 +1,25 @@
 /* ---------------------------------------------------------------
    Blindfold Chess: The Book — site stylesheet
    A quiet, book-like design: paper background, ink text,
-   a chess-club green accent, and a checkerboard rule as the
-   one signature detail.
+   a red link accent, yellow buttons, and a checkerboard rule
+   as the one signature decorative detail.
    --------------------------------------------------------------- */
 
 :root {
   --paper: #faf9f5;
   --ink: #23201a;
   --ink-soft: #5c564b;
-  --green: #2f5d46;       /* chess-club baize green: links, accents */
+  --caption-gray: #4d4d4d;  /* slightly lighter than --ink, neutral gray for captions */
+
+  --red: #8D2B13;           /* links, site title */
+  --red-dark: #6d210f;      /* link hover/focus */
+
+  --yellow: #E7D464;        /* buttons */
+  --yellow-dark: #cfbe50;   /* button hover/focus */
+
+  --green: #2f5d46;         /* retained for the checkerboard rule + blockquote accent */
   --green-dark: #234634;
+
   --square-dark: #2f5d46;
   --square-light: #e9e4d8;
   --rule: #d9d3c4;
@@ -51,6 +60,9 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
   padding-bottom: 1.1rem;
+  /* Navbar runs roughly 2x the width of the rest of the page (which stays
+     at --max-width). Only this row is widened. */
+  max-width: calc(var(--max-width) * 2);
 }
 
 .site-title {
@@ -58,7 +70,7 @@ body {
   font-size: 1.65rem;
   font-weight: 700;
   letter-spacing: 0.01em;
-  color: var(--ink);
+  color: var(--red);
   text-decoration: none;
   line-height: 1.2;
 }
@@ -98,27 +110,28 @@ body {
   flex-basis: 100%;
   margin-top: 0.9rem;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-  font-size: 0.82rem;
+  font-size: 1.07rem;      /* ~30% larger than the original 0.82rem */
+  font-weight: 700;
   letter-spacing: 0.04em;
 }
 .site-nav a {
-  color: var(--ink-soft);
+  color: var(--red);
   text-decoration: none;
   margin-right: 1.1rem;
   padding-bottom: 2px;
   border-bottom: 2px solid transparent;
 }
 .site-nav a:hover,
-.site-nav a:focus-visible { color: var(--green-dark); border-bottom-color: var(--green); }
+.site-nav a:focus-visible { color: var(--red-dark); border-bottom-color: var(--red-dark); }
 .site-nav a.nav-buy {
-  color: #fff;
-  background: var(--green);
+  color: var(--ink);
+  background: var(--yellow);
   padding: 0.35rem 0.7rem;
   border-radius: 3px;
   border-bottom: none;
 }
 .site-nav a.nav-buy:hover,
-.site-nav a.nav-buy:focus-visible { background: var(--green-dark); }
+.site-nav a.nav-buy:focus-visible { background: var(--yellow-dark); color: var(--ink); }
 
 /* --- Content --- */
 .content { padding: 2.25rem 1.25rem 3rem; }
@@ -128,21 +141,32 @@ h1, h2, h3 { line-height: 1.25; letter-spacing: 0.005em; }
 h2 { font-size: 1.35rem; margin-top: 2.2rem; }
 h3 { font-size: 1.1rem; }
 
-a { color: var(--green); }
-a:hover { color: var(--green-dark); }
+a { color: var(--red); }
+a:hover { color: var(--red-dark); }
 
+/* Default: images align left rather than center */
 img {
   max-width: 100%;
   height: auto;
   display: block;
-  margin: 1.6rem auto 0.5rem;
+  margin: 1.6rem auto 0.5rem 0;
+}
+
+/* Float-left variant: add class="img-float-left" to an <img> tag (or, in
+   Markdown, ![alt](url){: .img-float-left }) to float it left at 40% of
+   the column width, with ~20px of space to its right and below. */
+.img-float-left {
+  float: left;
+  width: 40%;
+  margin: 0 1.25rem 1.25rem 0; /* ~20px right and below at the base font size */
 }
 
 /* Image captions: an emphasized paragraph right after an image */
 img + em, .caption {
   display: block;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
   font-size: 0.85rem;
-  color: var(--ink-soft);
+  color: var(--caption-gray);
   text-align: center;
   margin: 0.4rem auto 1.6rem;
   max-width: 36rem;
@@ -170,14 +194,14 @@ hr {
   font-size: 0.85rem;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #fff;
-  background: var(--green);
+  color: var(--ink);
+  background: var(--yellow);
   text-decoration: none;
   padding: 0.6rem 1.1rem;
   border-radius: 3px;
   margin: 0.4rem 0.6rem 0.4rem 0;
 }
-.button:hover, .button:focus-visible { background: var(--green-dark); color: #fff; }
+.button:hover, .button:focus-visible { background: var(--yellow-dark); color: var(--ink); }
 
 /* --- Blog index --- */
 .post-list { list-style: none; padding: 0; margin: 1.5rem 0 0; }
@@ -191,7 +215,7 @@ hr {
   text-decoration: none;
   color: var(--ink);
 }
-.post-list .post-link:hover { color: var(--green-dark); text-decoration: underline; }
+.post-list .post-link:hover { color: var(--red-dark); text-decoration: underline; }
 .post-list .post-meta { margin: 0.25rem 0 0; }
 
 .post-meta {
@@ -241,7 +265,7 @@ hr {
   margin: 0.2rem 0;
 }
 .footer-nav a { color: var(--ink-soft); text-decoration: none; }
-.footer-nav a:hover { color: var(--green-dark); text-decoration: underline; }
+.footer-nav a:hover { color: var(--red-dark); text-decoration: underline; }
 
 /* --- Small screens: collapse the nav into a dropdown --- */
 @media (max-width: 640px) {
@@ -276,6 +300,13 @@ hr {
     display: inline-block;
     margin-top: 0.6rem;
     text-align: center;
+  }
+
+  /* Floating images don't have room to float on narrow screens */
+  .img-float-left {
+    float: none;
+    width: 100%;
+    margin: 1.6rem auto 0.5rem 0;
   }
 }
 
