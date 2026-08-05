@@ -58,11 +58,12 @@ body {
   background: var(--nav-bg);
   border-bottom: 1px solid var(--rule);
   padding-top: 1.75rem;
+  padding-bottom: 10px; /* extra breathing room above the hairline divider */
 }
 .site-header-row {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
   padding-bottom: 1.1rem;
   max-width: calc(var(--max-width) * 2);
@@ -71,6 +72,7 @@ body {
 
 .site-title {
   display: inline-block;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
   font-size: 1.65rem;
   font-weight: 700;
   letter-spacing: 0.01em;
@@ -113,6 +115,7 @@ body {
   order: 3;
   flex-basis: 100%;
   margin-top: 0.9rem;
+  text-align: center;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
   font-size: 1.07rem;      /* ~30% larger than the original 0.82rem */
   font-weight: 700;
@@ -222,6 +225,7 @@ hr {
   border-bottom: 1px solid var(--rule);
 }
 .post-list .post-link {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
   font-size: 1.15rem;
   font-weight: 700;
   text-decoration: none;
@@ -290,6 +294,7 @@ hr {
     flex-direction: column;
     gap: 0;
     margin-top: 0;
+    text-align: left;
     position: absolute;
     left: 0;
     right: 0;
