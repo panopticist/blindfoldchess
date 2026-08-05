@@ -23,6 +23,7 @@
       </label>
 
       <nav class="site-nav" aria-label="Main navigation">
+        <a href="{{ '/' | relative_url }}" class="nav-home-only">Home</a>
         <a href="{{ '/excerpt/' | relative_url }}">Excerpt</a>
         <a href="{{ '/blog/' | relative_url }}">Blog</a>
         <a href="{{ '/reviews-and-press/' | relative_url }}">Reviews &amp; Press</a>
@@ -30,7 +31,6 @@
         <a class="nav-buy" href="{{ '/buy-the-book/' | relative_url }}">Buy the Book</a>
       </nav>
     </div>
-    <div class="board-rule" aria-hidden="true"></div>
   </header>
 
   <main class="wrap content">
@@ -38,7 +38,7 @@
   </main>
 
   <footer class="site-footer">
-    <div class="board-rule" aria-hidden="true"></div>
+    <div class="footer-divider" aria-hidden="true"></div>
     <div class="wrap">
       <p class="footer-title">♞ Blindfold Chess: The Book</p>
       <p class="footer-nav">
