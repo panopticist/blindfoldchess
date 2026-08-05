@@ -1,28 +1,27 @@
 /* ---------------------------------------------------------------
    Blindfold Chess: The Book — site stylesheet
-   A quiet, book-like design: paper background, ink text,
-   a red link accent, yellow buttons, and a checkerboard rule
-   as the one signature decorative detail.
+   A quiet, book-like design: white page, ink text, a light-gray
+   navbar, a red link accent, and yellow buttons.
    --------------------------------------------------------------- */
 
 :root {
-  --paper: #faf9f5;
+  --paper: #ffffff;        /* page background */
+  --nav-bg: #F5F5F5;       /* navbar band background */
   --ink: #23201a;
   --ink-soft: #5c564b;
   --caption-gray: #4d4d4d;  /* slightly lighter than --ink, neutral gray for captions */
 
-  --red: #8D2B13;           /* links, site title */
+  --red: #8D2B13;           /* links, site title, headlines */
   --red-dark: #6d210f;      /* link hover/focus */
 
-  --yellow: #E7D464;        /* buttons */
+  --yellow: #E7D464;        /* buttons, blockquote accent */
   --yellow-dark: #cfbe50;   /* button hover/focus */
 
-  --green: #2f5d46;         /* retained for the checkerboard rule + blockquote accent */
+  --green: #2f5d46;         /* retained for the footer checkerboard rule only */
   --green-dark: #234634;
 
-  --square-dark: #2f5d46;
-  --square-light: #e9e4d8;
   --rule: #d9d3c4;
+  --divider-gray: #e0e0e0;  /* footer top divider */
   --max-width: 44rem;
 }
 
@@ -45,24 +44,29 @@ body {
   padding: 0 1.25rem;
 }
 
-/* --- Signature detail: a single row of chessboard squares --- */
-.board-rule {
-  height: 8px;
-  background-image: linear-gradient(90deg, var(--square-dark) 50%, var(--square-light) 50%);
-  background-size: 16px 8px;
+/* --- Footer top divider: a plain light-gray line separating the footer --- */
+.footer-divider {
+  height: 1px;
+  background: var(--divider-gray);
 }
 
-/* --- Header --- */
-.site-header { padding-top: 1.75rem; position: relative; }
+/* --- Header / navbar --- */
+/* Full-width light-gray band; the title + nav sit centered inside it at
+   roughly 2x the width of the page's content column. */
+.site-header {
+  position: relative;
+  background: var(--nav-bg);
+  border-bottom: 1px solid var(--rule);
+  padding-top: 1.75rem;
+}
 .site-header-row {
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
   padding-bottom: 1.1rem;
-  /* Navbar runs roughly 2x the width of the rest of the page (which stays
-     at --max-width). Only this row is widened. */
   max-width: calc(var(--max-width) * 2);
+  margin: 0 auto; /* keeps the row centered even when it's narrower than the viewport */
 }
 
 .site-title {
@@ -133,11 +137,19 @@ body {
 .site-nav a.nav-buy:hover,
 .site-nav a.nav-buy:focus-visible { background: var(--yellow-dark); color: var(--ink); }
 
+/* "Home" appears only in the mobile dropdown, not the desktop bar */
+.nav-home-only { display: none; }
+
 /* --- Content --- */
 .content { padding: 2.25rem 1.25rem 3rem; }
 
 h1, h2, h3 { line-height: 1.25; letter-spacing: 0.005em; }
-.page-title { font-size: 1.9rem; margin: 0 0 0.4rem; }
+h1, h2, .page-title { color: var(--red); }
+.page-title {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 1.9rem;
+  margin: 0 0 0.4rem;
+}
 h2 { font-size: 1.35rem; margin-top: 2.2rem; }
 h3 { font-size: 1.1rem; }
 
@@ -175,7 +187,7 @@ img + em, .caption {
 blockquote {
   margin: 1.4rem 0;
   padding: 0.2rem 0 0.2rem 1.2rem;
-  border-left: 3px solid var(--green);
+  border-left: 3px solid var(--yellow);
   color: var(--ink-soft);
   font-style: italic;
 }
@@ -213,7 +225,7 @@ hr {
   font-size: 1.15rem;
   font-weight: 700;
   text-decoration: none;
-  color: var(--ink);
+  color: var(--red);
 }
 .post-list .post-link:hover { color: var(--red-dark); text-decoration: underline; }
 .post-list .post-meta { margin: 0.25rem 0 0; }
@@ -251,7 +263,7 @@ hr {
   color: var(--ink);
 }
 .contact-form input:focus,
-.contact-form textarea:focus { outline: 2px solid var(--green); outline-offset: 1px; }
+.contact-form textarea:focus { outline: 2px solid var(--red); outline-offset: 1px; }
 .contact-form button { margin-top: 1.2rem; border: none; cursor: pointer; }
 
 /* --- Footer --- */
@@ -282,13 +294,14 @@ hr {
     left: 0;
     right: 0;
     top: 100%;
-    background: var(--paper);
-    border-top: 1px solid var(--rule);
+    background: var(--nav-bg);
     border-bottom: 1px solid var(--rule);
     padding: 0.5rem 1.25rem 0.75rem;
     z-index: 20;
   }
   .nav-toggle-checkbox:checked ~ .site-nav { display: flex; }
+
+  .nav-home-only { display: block; }
 
   .site-nav a {
     margin: 0;
