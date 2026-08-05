@@ -55,19 +55,18 @@ body {
    roughly 2x the width of the page's content column. */
 .site-header {
   position: relative;
-  background: var(--nav-bg);
-  border-bottom: 1px solid var(--rule);
-  padding-top: 1.75rem;
-  padding-bottom: 10px; /* extra breathing room above the hairline divider */
 }
 .site-header-row {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   flex-wrap: wrap;
-  padding-bottom: 1.1rem;
+  background: var(--nav-bg);
+  border-bottom: 1px solid var(--rule);
+  padding: 1.75rem 1.25rem calc(1.1rem + 10px);
   max-width: calc(var(--max-width) * 2);
-  margin: 0 auto; /* keeps the row centered even when it's narrower than the viewport */
+  margin: 0 auto; /* the boxed bar centers here, with plain white on either side once the viewport is wider than the box */
 }
 
 .site-title {
@@ -108,7 +107,7 @@ body {
   margin-top: 0.9rem;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
   font-size: 1.07rem;      /* ~30% larger than the original 0.82rem */
-  font-weight: 700;
+  font-weight: 400;
   letter-spacing: 0.04em;
 }
 .site-nav a {
