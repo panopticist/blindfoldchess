@@ -8,42 +8,48 @@ author: "EliotHearst"
 
 
   
-[caption id="" align="alignnone" width="600"]<img src="{{ '/assets/images/kitchen-prep-tg-and-ml.jpg' | relative_url }}" alt=" Preparing in the kitchen (Gareyev on the left, Lang on the right). "/>  Preparing in the kitchen (Gareyev on the left, Lang on the right). [/caption] 
+<img src="{{ '/assets/images/kitchen-prep-tg-and-ml.jpg' | relative_url }}" alt=" Preparing in the kitchen (Gareyev on the left, Lang on the right). "/>
+<p class="caption">Preparing in the kitchen (Gareyev on the left, Lang on the right).</p> 
   
 
 
 
 
   
-[caption id="" align="alignnone" width="600"]<img src="{{ '/assets/images/all-7-opponents.jpg' | relative_url }}" alt="  All 7 opponents as play begins.  "/>   All 7 opponents as play begins.  [/caption] 
+<img src="{{ '/assets/images/all-7-opponents.jpg' | relative_url }}" alt="  All 7 opponents as play begins.  "/>
+<p class="caption">All 7 opponents as play begins.</p>
   
 
 
 
 
   
-[caption id="" align="alignnone" width="600"]<img src="{{ '/assets/images/some-players-and-tg-and-ml.jpg' | relative_url }}" alt=" ﻿The setup near the exhibitors. Display boards behind and above them electronically record current positions in all games. "/>  ﻿The setup near the exhibitors. Display boards behind and above them electronically record current positions in all games. [/caption] 
+<img src="{{ '/assets/images/some-players-and-tg-and-ml.jpg' | relative_url }}" alt=" ﻿The setup near the exhibitors. Display boards behind and above them electronically record current positions in all games. "/>
+<p class="caption">The setup near the exhibitors. Display boards behind and above them electronically record current positions in all games.</p> 
   
 
 
 
 
   
-[caption id="" align="alignnone" width="600"]<img src="{{ '/assets/images/tandem-exhibitors-tg-and-ml.jpg' | relative_url }}" alt=" Hard at work. "/>  Hard at work. [/caption] 
+<img src="{{ '/assets/images/tandem-exhibitors-tg-and-ml.jpg' | relative_url }}" alt=" Hard at work. "/>
+<p class="caption">Hard at work.</p>
   
 
 
 
 
   
-[caption id="" align="alignnone" width="600"]<img src="{{ '/assets/images/image-asset.jpeg' | relative_url }}" alt=" Near the end of the display. "/>  Near the end of the display. [/caption] 
+<img src="{{ '/assets/images/image-asset.jpeg' | relative_url }}" alt=" Near the end of the display. "/>
+<p class="caption">Near the end of the display.</p> 
   
 
 
 
 
   
-[caption id="" align="alignnone" width="600"]<img src="{{ '/assets/images/group-tandem-with-tg-and-ml.jpg' | relative_url }}" alt=" Afterwards: Gareyev and Lang (front center); 5 opponents in the back row; left front: Marck Cobb, President of the Karpov International School of Chess; right front: Ronald Mayer, Chairman of the Sontheim Chess Club. "/>  Afterwards: Gareyev and Lang (front center); 5 opponents in the back row; left front: Marck Cobb, President of the Karpov International School of Chess; right front: Ronald Mayer, Chairman of the Sontheim Chess Club. [/caption] 
+<img src="{{ '/assets/images/group-tandem-with-tg-and-ml.jpg' | relative_url }}" alt=" Afterwards: Gareyev and Lang (front center); 5 opponents in the back row; left front: Marck Cobb, President of the Karpov International School of Chess; right front: Ronald Mayer, Chairman of the Sontheim Chess Club. "/>
+<p class="caption">Afterwards: Gareyev and Lang (front center); 5 opponents in the back row; left front: Marck Cobb, President of the Karpov International School of Chess; right front: Ronald Mayer, Chairman of the Sontheim Chess Club.</p> 
   
 
 <div class="sqs-html-content" data-sqsp-text-block-content><h2 style="white-space:pre-wrap;"><strong>All Tandem Games (7)</strong></h2><p class="" style="white-space:pre-wrap;"><strong>(1) Timur Gareyev/Marc Lang - Kevin Walter [D79]</strong><br>1.Nf3 c5 2.g3 g6 3.Bg2 Bg7 4.0–0 Nc6 5.c3 Nf6 6.d4 cxd4 7.cxd4 d5 8.Ne5 0–0 9.Nc3 e6 10.f4 Bd7 11.Be3 Rc8 12.Bf2 Qe7 13.h3 Na5 14.Rc1 b5 15.a3 Nc4 16.Rc2 a5 17.Nb1 Ne4 18.Nxc4 Nxf2 19.Rxf2 bxc4 20.Nc3 Qd6 21.e3 Rb8 22.e4 dxe4 23.Nxe4 Qb6 24.Rxc4 Bb5 25.Rc5 Rfd8 26.Rd2 f5 27.Nf2 Rxd4 28.Rxd4 Qxc5 29.Rd8+ Rxd8 30.Qxd8+ Kf7 31.Qxa5 Bxb2 32.Bf1 Bd4 33.Qxb5 Bxf2+ 34.Kg2 Qxb5 35.Bxb5 ½–½</p><p class="" style="white-space:pre-wrap;"><strong>(2) Jochen Wegener - Timur Gareyev/Marc Lang [A26]</strong><br>1.c4 g6 2.g3 Bg7 3.Bg2 Nf6 4.Nc3 0–0 5.e4 e5 6.Nge2 Nc6 7.0–0 d6 8.d3 a6 9.h3 Rb8 10.a4 Nd4 11.Be3 Nh5 12.g4 Nxe2+ 13.Nxe2 Nf4 14.Qd2 Nxg2 15.Kxg2 f5 16.f3 Be6 17.Nc3 c6 18.a5 h5 19.exf5 gxf5 20.Bg5 Qe8 21.Bh6 hxg4 22.fxg4 Qg6 23.Bxg7 Kxg7 24.g5 Rbe8 25.h4 Qh5 26.Rh1 f4 27.Ne4 d5 28.Nf6 Rxf6 29.gxf6+ Kxf6 30.Kf2 Qf5 31.Rag1 dxc4 32.dxc4 Bxc4 33.Rg5 Qd3 34.Qxd3 Bxd3 35.Kf3 Bc4 36.Rhg1 Bd5+ 37.Kg4 Be6+ 38.Kf3 Bd5+ 39.Kg4 ½–½</p><p class="" style="white-space:pre-wrap;"><strong>(3) Timur Gareyev/Marc Lang - Francesco Petitto [C18]</strong><br>1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.e5 c5 5.a3 Bxc3+ 6.bxc3 Bd7 7.Qg4 Ne7 8.Qxg7 Rg8 9.Qxh7 Qc7 10.Bd2 Ba4 11.Nf3 cxd4 12.cxd4 Bxc2 13.Bb5+ Kf8 14.Bh6+ Rg7 15.Bxg7# 1–0</p><p class="" style="white-space:pre-wrap;"><strong>(4) Timur Gareyev/Marc Lang - Daniel Walter [D30]</strong><br>1.Nf3 Nf6 2.d4 d5 3.Bg5 e6 4.c4 c6 5.Qb3 Be7 6.Nc3 b6 7.e3 Nbd7 8.Bd3 dxc4 9.Qxc4 Bb7 10.e4 c5 11.Rd1 0–0 12.0–0 cxd4 13.Qxd4 Nc5 14.Bc2 Qxd4 15.Nxd4 h6 16.Bxf6 Bxf6 17.Rd2 Rad8 18.Rfd1 Bg5 19.Re2 Ba6 20.Ree1 Rd7 21.Nf3 Rxd1 22.Rxd1 Be7 23.b4 Nb7 24.b5 Rc8 25.bxa6 Na5 26.Rd3 Bb4 27.Nb5 Rxc2 28.h4 Bc5 29.Rd2 Rxd2 30.Nxd2 Nc6 31.Nb3 Nb4 32.Nxc5 bxc5 33.Nxa7 Nxa6 34.Kf1 Kf8 35.Ke2 Ke7 36.a3 Kd7 37.Kd3 Kc7 38.Kc4 Kb6 39.Nb5 Kc6 40.h5 g6 41.g4 gxh5 42.gxh5 f6 43.f4 f5 44.e5 Nb8 45.Nd6 Nd7 46.Nc8 Nxe5+ 47.fxe5 f4 48.Nd6 Kb6 49.Ne4 f3 50.Nf2 Kc6 51.a4 Kb6 52.Nd3 Ka5 53.Kxc5 Kxa4 54.Kd6 Kb3 55.Kxe6 Kc3 56.Nf2 Kd2 57.Kf5 Ke3 58.Ng4+ Ke2 59.e6 f2 60.Nxf2 Kxf2 61.e7 1–0</p><p class="" style="white-space:pre-wrap;"><strong>(5) Timur Gareyev/Marc Lang - Bernhard Masur [B01]</strong><br>1.e4 Nc6 2.Nf3 d5 3.exd5 Qxd5 4.Nc3 Qa5 5.Bb5 Bd7 6.d4 a6 7.Bxc6 Bxc6 8.0–0 Qh5 9.d5 0–0–0 10.Ng5 Qxd1 11.Rxd1 Be8 12.Bf4 Nf6 13.Rd4 h6 14.Nf3 Nh5 15.Be3 g5 16.g4 Nf6 17.h3 Bg7 18.Rad1 Nd7 19.Re4 Bf8 20.Bd4 Nf6 21.Ree1 Rg8 22.Bxf6 exf6 23.Ne4 Be7 24.Ng3 Bd6 25.Nf5 Bf8 26.c4 h5 27.Kg2 Ba4 28.b3 Bd7 29.N3d4 hxg4 30.hxg4 Bb4 31.Re3 Rge8 32.Rh1 Bc5 33.Rxe8 Rxe8 34.Kf3 b5 35.Rh6 bxc4 36.bxc4 Re1 37.Rxf6 Rc1 38.Rxf7 Rxc4 39.Ne6 Bb6 40.Ne7+ Kb7 41.Nd8+ Ka7 42.Ndc6+ Bxc6 43.Nxc6+ Kb7 44.Rf5 Rc3+ 45.Kg2 a5 46.Rxg5 Rc2 47.Rf5 Rxa2 48.g5 Ra4 49.Kf3 Ra2 50.Kg3 Ra1 51.Kg2 Ra4 52.Ne5 Bd4 53.Rf4 Rb4 54.Nc6 1–0</p><p class="" style="white-space:pre-wrap;"><strong>(6) Timur Gareyev/Marc Lang - Jonathan Schmidt [D00]</strong><br>1.d4 d5 2.e4 dxe4 3.Nc3 Nf6 4.Bg5 Bf5 5.f3 exf3 6.Qxf3 Bd7 7.Qxb7 Bc6 8.Bb5 Bxb5 9.Nxb5 Nd5 10.Qxa8 c6 11.Nxa7 Nb4 12.0–0–0 Qb6 13.a3 Na2+ 14.Kd2 Qxb2 15.Ne2 Qb6 16.Nxc6 Qxc6 17.Qxb8+ Kd7 18.Rb1 Qc4 19.Rb7+ Ke6 20.Qe5# 1–0</p><p class="" style="white-space:pre-wrap;"><strong>(7) Timur Gareyev/Marc Lang - Nathanael Hausler [D35]</strong><br>1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.Nf3 e6 5.Bg5 Nbd7 6.cxd5 exd5 7.e3 Be7 8.Bd3 0–0 9.0–0 Nb6 10.Qc2 h6 11.Bh4 Nh5 12.Bxe7 Qxe7 13.Rfe1 Nf6 14.Rab1 Be6 15.b4 Rac8 16.h3 Qc7 17.a4 Rfe8 18.a5 Nbd7 19.Rec1 Qd6 20.Nd2 b6 21.Ba6 Rcd8 22.Ne2 c5 23.bxc5 bxc5 24.Bb5 cxd4 25.Nxd4 Rb8 26.Qc6 Qxc6 27.Nxc6 Rbc8 28.Ne7+ 1–0</p></div>
