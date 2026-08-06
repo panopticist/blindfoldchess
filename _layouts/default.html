@@ -6,7 +6,6 @@
   <title>{% if page.title and page.url != "/" %}{{ page.title }} — {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
   {% if page.description %}<meta name="description" content="{{ page.description }}">{% elsif page.url == "/" %}<meta name="description" content="{{ site.description }}">{% endif %}
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-  <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/770780/7886032/css/fonts.css" />
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>♞</text></svg>">
 </head>
 <body>
@@ -41,7 +40,7 @@
   <footer class="site-footer">
     <div class="footer-divider" aria-hidden="true"></div>
     <div class="wrap">
-      <p class="footer-title">♞ Blindfold Chess: The Book</p>
+      <p class="footer-title"><span class="footer-icon">♞</span> Blindfold Chess: The Book</p>
       <p class="footer-nav">
         <a href="{{ '/' | relative_url }}">Home</a> ·
         <a href="{{ '/excerpt/' | relative_url }}">Excerpt</a> ·
@@ -50,7 +49,7 @@
         <a href="{{ '/about-the-authors/' | relative_url }}">About the Authors</a> ·
         <a href="{{ '/buy-the-book/' | relative_url }}">Buy the Book</a>
       </p>
-      <p class="footer-copy">Site text and images © Eliot Hearst and John Knott.</p>
+      <p class="footer-copy">Site text © Eliot Hearst and John Knott.</p>
     </div>
   </footer>
 </body>
