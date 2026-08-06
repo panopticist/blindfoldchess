@@ -66,8 +66,9 @@ body {
   justify-content: flex-start;
   flex-wrap: wrap;
   padding-bottom: 1.1rem;
-  max-width: calc(var(--max-width) * 2);
-  margin: 0 auto; /* centers the title+nav content within the full-bleed gray band above */
+  max-width: var(--max-width); /* same column width as the page content below, so the
+                                    title/nav left edge lines up exactly with it */
+  margin: 0 auto;
 }
 
 .site-title {
