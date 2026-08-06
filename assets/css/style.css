@@ -163,6 +163,18 @@ img {
   margin: 1.6rem auto 0.5rem 0;
 }
 
+/* Video embeds (e.g. YouTube iframes) always fit the column width,
+   regardless of the fixed width/height attributes in the original embed
+   code, and keep a correct 16:9 proportion as they scale. */
+iframe {
+  max-width: 100%;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  height: auto;
+  display: block;
+  margin: 1.6rem 0;
+}
+
 /* Float-left variant: add class="img-float-left" to an <img> tag (or, in
    Markdown, ![alt](url){: .img-float-left }) to float it left at 40% of
    the column width, with ~20px of space to its right and below. */
