@@ -9,8 +9,6 @@ name: Download images from Squarespace
 # -> Run workflow. It skips files that already exist, so re-running is safe.
 
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
 
 permissions:
