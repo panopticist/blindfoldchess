@@ -8,7 +8,7 @@ permalink: /
 
 ## Eliot Hearst and John Knott's *Blindfold Chess: History, Psychology, Techniques, Champions, World Records, and Important Games* is the definitive work on this fascinating topic.
 
-<p class="caption">*Above:* Alexander Alekhine playing blindfold against 28 opponents in Paris in 1925, thus setting a new world record and surpassing the world record of 26 opponents he had set the year before. (*Credit:* The Edward Winter Collection.)</p>
+<p class="caption"><em>Above:</em> Alexander Alekhine playing blindfold against 28 opponents in Paris in 1925, thus setting a new world record and surpassing the world record of 26 opponents he had set the year before. (<em>Credit:</em> The Edward Winter Collection.)</p>
 
 ---
 
