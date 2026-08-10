@@ -141,7 +141,10 @@ h1, h2, h3, h4 { line-height: 1.25; letter-spacing: 0.005em; }
 /* All headline levels: sans-serif, body-text color (not red -- that's
    reserved for the blog listing's post-title links, styled separately below). */
 h1, h2, h3, h4, .page-title {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-family: font-family: "Quarto A", "Quarto B", Georgia, Times, serif;
+		font-style: normal;
+		font-weight: 800;
+		line-height: 1.1em;
   color: var(--ink);
 }
 .page-title {
