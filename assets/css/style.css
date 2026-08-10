@@ -33,7 +33,7 @@ body {
   margin: 0;
   background: var(--paper);
   color: var(--ink);
-  font-family: Charter, "Bitstream Charter", "Iowan Old Style", Georgia, "Times New Roman", serif;
+  font-family: Georgia, "Times New Roman", serif;
   line-height: 1.65;
   -webkit-font-smoothing: antialiased;
 }
